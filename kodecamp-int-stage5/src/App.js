@@ -12,7 +12,7 @@ function App() {
        <div>
          <Navbar />
          <Routes>
-           <Route path='/' exact element={<Datapage />} />
+           <Route path='/kodecamp-int-stage5' element={<Datapage />} />
            <Route path='/about' element={<Aboutpage />} />
            <Route path='/contact' element={<Contactpage />} />
            <Route path='/details/:id' element={<Details />} />
